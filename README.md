@@ -77,7 +77,7 @@ A robust classes for representing complex networks and Comprehensive graph theor
 - **Features:** Edge management (Add/Delete), shortest path calculation, and neighbor discovery.
 
 | Algorithm | Time Complexity |
-| :--- | :---: | :---: |
+| :--- | :---: |
 | **BFS / DFS** | O(V + E) |
 | **Dijkstra (Shortest Path)** | O(V + E log V) |
 | **Bellman-Ford** | O(V × E) |
