@@ -34,7 +34,7 @@ Includes various implementations focusing on performance and different access pa
 | **Priority Queue (Heap Sort)** | - | - | O(log n) | O(log n) |
 
 ### ⚠️ Important Note 
-In a linked list or a double-linked list, insertion and deletion are `o(1)` if they occur at the beginning or end of the list, because we have a pointer pointing to the first node and another pointer pointing to the last node. However, if the addition occurs before or after a specific element, the o-notation will be in the worst case `o(n)`.
+In a linked list or a double-linked list, Time complexity of insertion and deletion are `o(1)` if they occur at the beginning or end of the list, because we have a pointer pointing to the first node and another pointer pointing to the last node. However, if the insertion or deletion occurs before or after a specific element, the time complexity will be in the worst case `o(n)`.
 
 ### 2. Tree Structures (Hierarchical Structures)
 A deep dive into hierarchical data management with recursion-based logic:
