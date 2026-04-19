@@ -123,5 +123,14 @@
     <ClInclude Include="HashTables\HashTablePerfectHashing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PracticalOnStack\BalancedParentheses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticalOnStack\ConvertInfixToPrefixAndExpressionEvaluation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticalOnStack\ConvertInfixToPostfixAndExpressionEvaluation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

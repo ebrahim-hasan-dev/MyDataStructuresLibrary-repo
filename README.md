@@ -36,6 +36,7 @@ Includes various implementations focusing on performance and different access pa
 ### ⚠️ Important Note 
 In a linked list or a double-linked list, Time complexity of insertion and deletion are `o(1)` if they occur at the beginning or end of the list, because we have a pointer pointing to the first node and another pointer pointing to the last node. However, if the insertion or deletion occurs before or after a specific element, the time complexity will be in the worst case `o(n)`.
 
+
 ### 2. Tree Structures (Hierarchical Structures)
 A deep dive into hierarchical data management with recursion-based logic:
 -   **Self-Balancing & Search Trees:** BST, AVL Tree, Red-Black Tree.
@@ -50,6 +51,7 @@ A deep dive into hierarchical data management with recursion-based logic:
 | **B-Tree / B+ Tree** | O(log n) | O(log n) | O(log n) | O(log n) |
 
 > **Note on Databases:** This section highlights the relationship between **B+ Trees** and **SQL Server Indexing**. Understanding these structures provides a deep insight into how database engines handle internal data storage and binary search optimization.
+
 
 ### 3. Hash Tables
 Highly configurable hashing mechanisms with various collision resolution strategies:
@@ -82,6 +84,45 @@ A robust classes for representing complex networks and Comprehensive graph theor
 | **Dijkstra (Shortest Path)** | O(V + E log V) |
 | **Bellman-Ford** | O(V × E) |
 
+
+### 5. Practical On Stack
+- This folder contains the most common uses of the Stack data structure in solving certain problems, such as balanced parentheses and converting infix to prefix or postfix, enabling the compiler to calculate complex mathematical equations quickly and efficiently. (And Expression Evaluation)
+
+- This is an example of how to use the functions located within the (PracticalOnStack) folder.
+
+```cpp
+using namespace std;
+#include <iostream>
+
+#include "../MyDataStructuresLibrary/PracticalOnStack/BalancedParentheses.h";
+#include "../MyDataStructuresLibrary/PracticalOnStack/ConvertInfixToPrefixAndExpressionEvaluation.h";
+#include "../MyDataStructuresLibrary/PracticalOnStack/ConvertInfixToPostfixAndExpressionEvaluation.h";
+using namespace PracticalOnStack;
+
+int main() 
+{
+    cout << AreBalanced("()[{}") << "\n";
+    cout << AreBalanced("(){()}") << "\n";
+
+    // =====================================================================================
+
+	string Expression = "(5+8)*9+((8/4)*55-99)*7";
+
+	cout << "Expression befor convert to prefix: " << Expression << "\n";
+	cout << "Expression after convert to prefix: " << ConvertInfixToPrefix(Expression) << "\n";
+
+	cout << "Expression Result Prefix : " << PerformExpressionEvaluationPrefix(Expression) << "\n\n";
+
+	cout << "=====================================================================================\n\n";
+
+	cout << "Expression befor convert to postfix: " << Expression << "\n";
+	cout << "Expression after convert to postfix: " << ConvertInfixToPostfix(Expression) << "\n";
+	cout << "Expression after convert to postfix better: " << ConvertInfixToPostfixBetter(Expression) << "\n";
+
+	cout << "Expression Result Postfix : " << PerformExpressionEvaluationPostfix(Expression) << "\n\n";
+}
+```
+
 ---
 
 ## 🏗 Project Structure & Dependencies
@@ -92,8 +133,8 @@ The project is modularly structured, where advanced structures leverage simpler 
   - `clsDate`: For date-related operations.
   - `clsString`: Custom string manipulation logic.
   - `clsInput`: Validated user input handling.
-  -   `clsUtil`: General purpose helper functions.
-  -   `clsValidate`: Data validation logic.
+  - `clsUtil`: General purpose helper functions.
+  - `clsValidate`: Data validation logic.
 
 ---
 ## ⚠️ Important Execution Notes

@@ -45,6 +45,9 @@
     <ClInclude Include="MyLibrary\clsString.h" />
     <ClInclude Include="MyLibrary\clsUtil.h" />
     <ClInclude Include="MyLibrary\clsValidate.h" />
+    <ClInclude Include="PracticalOnStack\BalancedParentheses.h" />
+    <ClInclude Include="PracticalOnStack\ConvertInfixToPostfixAndExpressionEvaluation.h" />
+    <ClInclude Include="PracticalOnStack\ConvertInfixToPrefixAndExpressionEvaluation.h" />
     <ClInclude Include="Trees\AVLTree.h" />
     <ClInclude Include="Trees\BinarySearchTree.h" />
     <ClInclude Include="Trees\BPlusTree.h" />

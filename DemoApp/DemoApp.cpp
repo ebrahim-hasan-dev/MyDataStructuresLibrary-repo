@@ -52,6 +52,16 @@ using namespace std;
 #include "../MyDataStructuresLibrary/Trees/BTree_Correct_Update.h";
 #include "../MyDataStructuresLibrary/Trees/HuffmanTree.h";
 
+//========================================================================
+
+// Practical On Stack algorithms
+
+#include "../MyDataStructuresLibrary/PracticalOnStack/BalancedParentheses.h";
+#include "../MyDataStructuresLibrary/PracticalOnStack/ConvertInfixToPrefixAndExpressionEvaluation.h";
+#include "../MyDataStructuresLibrary/PracticalOnStack/ConvertInfixToPostfixAndExpressionEvaluation.h";
+using namespace PracticalOnStack;
+
+
 
 int main()
 {
@@ -61,6 +71,31 @@ int main()
 }
 
 
+
+// this function main specified is for testing Practical On Stack
+
+//int main()
+//{
+//	cout << AreBalanced("()[{}") << "\n";
+//	cout << AreBalanced("(){()}") << "\n";
+//	
+////	 =====================================================================================
+//
+//	string Expression = "(5+8)*9+((8/4)*55-99)*7";
+//
+//	cout << "Expression befor convert to prefix: " << Expression << "\n";
+//	cout << "Expression after convert to prefix: " << ConvertInfixToPrefix(Expression) << "\n";
+//
+//	cout << "Expression Result Prefix : " << PerformExpressionEvaluationPrefix(Expression) << "\n\n";
+//
+//	cout << "=====================================================================================\n\n";
+//
+//	cout << "Expression befor convert to postfix: " << Expression << "\n";
+//	cout << "Expression after convert to postfix: " << ConvertInfixToPostfix(Expression) << "\n";
+//	cout << "Expression after convert to postfix better: " << ConvertInfixToPostfixBetter(Expression) << "\n";
+//
+//	cout << "Expression Result Postfix : " << PerformExpressionEvaluationPostfix(Expression) << "\n\n";
+//}
 
 
 // this function main specified is for testing all hash tables
