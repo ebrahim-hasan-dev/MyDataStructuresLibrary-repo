@@ -86,7 +86,7 @@ A robust classes for representing complex networks and Comprehensive graph theor
 
 
 ### 5. Practical On Stack
-- This folder contains the most common uses of the Stack data structure in solving certain problems, such as balanced parentheses and converting infix to prefix or postfix, enabling the compiler to calculate complex mathematical equations quickly and efficiently. (And Expression Evaluation)
+- This folder contains the most common uses of the Stack data structure in solving certain problems, such as balanced parentheses and converting infix notation to prefix or postfix notation, enabling the compiler to calculate complex mathematical equations quickly and efficiently. (And Expression Evaluation)
 
 - This is an example of how to use the functions located within the (PracticalOnStack) folder.
 
