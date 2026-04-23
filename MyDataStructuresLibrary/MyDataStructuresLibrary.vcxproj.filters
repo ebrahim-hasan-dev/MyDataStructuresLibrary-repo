@@ -132,5 +132,11 @@
     <ClInclude Include="PracticalOnStack\ConvertInfixToPostfixAndExpressionEvaluation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PracticalOnStack\ClsMyString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PracticalOnQueue\ClsQueueLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

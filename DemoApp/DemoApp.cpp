@@ -54,18 +54,27 @@ using namespace std;
 
 //========================================================================
 
-// Practical On Stack algorithms
+// Practical On Stack
 
 #include "../MyDataStructuresLibrary/PracticalOnStack/BalancedParentheses.h";
 #include "../MyDataStructuresLibrary/PracticalOnStack/ConvertInfixToPrefixAndExpressionEvaluation.h";
 #include "../MyDataStructuresLibrary/PracticalOnStack/ConvertInfixToPostfixAndExpressionEvaluation.h";
+#include "../MyDataStructuresLibrary/PracticalOnStack/ClsMyString.h";
 using namespace PracticalOnStack;
+
+//========================================================================
+
+// Practical On Queue
+
+#include "../MyDataStructuresLibrary/PracticalOnQueue/ClsQueueLine.h";
+using namespace PracticalOnQueue;
 
 
 
 int main()
 {
 	// demo here any class from my data structures library
+	
 
 	return 0;
 }

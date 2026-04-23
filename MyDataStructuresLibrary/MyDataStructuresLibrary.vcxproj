@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PracticalOnQueue\ClsQueueLine.h" />
+    <ClInclude Include="PracticalOnStack\ClsMyString.h" />
     <ClInclude Include="Graphs\GraphUseAdjacencyList.h" />
     <ClInclude Include="Graphs\GraphUseAdjacencyMatrix.h" />
     <ClInclude Include="Graphs\GraphUseIncidenceMatrix.h" />

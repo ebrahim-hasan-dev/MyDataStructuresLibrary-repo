@@ -31,7 +31,7 @@ public:
 	{
 		if (Size <= 0)
 		{
-			Size = 0;
+			Size = 1;
 		}
 
 		_MaxSize = Size;
@@ -191,7 +191,8 @@ public:
 	{
 		Resize(_MaxSize + 1);
 		
-		_arr[_MaxSize - 1] = Element;
+		//_arr[_MaxSize - 1] = Element;
+		_arr[_Length] = Element;
 		_Length++;
 	}
 
